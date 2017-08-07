@@ -1,0 +1,16 @@
+{
+  "name": "tram-bingo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo ./src/main.js:index.js --dir public --live --pushstate"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "budo": "^10.0.4",
+    "tram-one": "^1.4.1"
+  }
+}
